@@ -1,6 +1,6 @@
 {
   "name": "@chartiful/react-horizontal-bar-graph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native horizontal bar graph.",
   "source": "src/index.tsx",
   "main": "lib/horizontal-bar-graph/src/index.js",
@@ -39,6 +39,9 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
-    "react": "^16.13.1"
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.5"
   }
 }
