@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/chartiful/react-charts#readme",
   "peerDependencies": {
-    "@chartiful/react-chart-builder": "0.1.0",
+    "@chartiful/react-chart-builder": ">= 0.1.1",
     "react": "> 16.7.0"
   },
   "devDependencies": {

@@ -35,7 +35,7 @@
   "homepage": "https://github.com/chartiful/react-charts/tree/master/vertical-bar-graph",
   "peerDependencies": {
     "react": "> 16.7.0",
-    "@chartiful/react-chart-builder": "0.1.0"
+    "@chartiful/react-chart-builder": ">= 0.1.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
