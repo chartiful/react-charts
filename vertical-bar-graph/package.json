@@ -1,6 +1,6 @@
 {
   "name": "@chartiful/react-vertical-bar-graph",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Native vertical bar graph.",
   "source": "src/index.tsx",
   "main": "lib/vertical-bar-graph/src/index.js",
@@ -35,7 +35,7 @@
   "homepage": "https://github.com/chartiful/react-charts/tree/master/vertical-bar-graph",
   "peerDependencies": {
     "react": "> 16.7.0",
-    "@chartiful/react-chart-builder": ">= 0.1.1"
+    "@chartiful/react-chart-builder": ">= 0.1.3"
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
