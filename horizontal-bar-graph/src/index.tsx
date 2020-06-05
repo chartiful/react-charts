@@ -1,4 +1,5 @@
-import React from 'react'
+import * as React from 'react'
+
 import ChartBuilder from '@chartiful/react-chart-builder'
 import { VerticalBarGraphConfig, BaseChartConfig } from '../../types'
 
