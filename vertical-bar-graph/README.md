@@ -1,25 +1,25 @@
 ## Vertical Bar Graph
 
-**[NPM package](https://www.npmjs.com/package/@chartiful/react-native-vertical-bar-graph)**
+**[NPM package](https://www.npmjs.com/package/@chartiful/react-vertical-bar-graph)**
 
 <img src="https://seanwatters.io/images/@chartiful-react-native-vertical-bar-graph.png" height="400px" alt="bar graph image">
 
 ### Installation
 
 ```bash
-npm i @chartiful/react-native-chart-builder @chartiful/react-native-vertical-bar-graph
+npm i @chartiful/react-chart-builder @chartiful/react-vertical-bar-graph
 ```
 
 ### Example
 
 ```jsx
-import VerticalBarGraph from '@chartiful/react-native-vertical-bar-graph'
+import VerticalBarGraph from '@chartiful/react-vertical-bar-graph'
 
 <VerticalBarGraph
   data={[20, 45, 28, 80, 99, 43, 50]}
   labels={['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']}
-  width={Dimensions.get('window').width - 35}
-  height={Dimensions.get('window').width / 7 + 225}
+  width={500}
+  height={300}
   barRadius={5}
   barWidthPercentage={0.65}
   baseConfig={{
@@ -53,4 +53,4 @@ import VerticalBarGraph from '@chartiful/react-native-vertical-bar-graph'
 
 - `style`?: `ReactNative.StyleSheet`
 
-- `baseConfig`?: `BaseChartConfig` (found here: [link](https://github.com/chartiful/react-native-charts#readme))
+- `baseConfig`?: `BaseChartConfig` (found here: [link](https://github.com/chartiful/react-charts#readme))
