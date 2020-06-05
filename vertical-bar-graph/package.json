@@ -1,0 +1,44 @@
+{
+  "name": "@chartiful/react-vertical-bar-graph",
+  "version": "0.1.0",
+  "description": "React Native vertical bar graph.",
+  "source": "src/index.tsx",
+  "main": "lib/vertical-bar-graph/src/index.js",
+  "types": "lib/vertical-bar-graph/src/index.d.ts",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chartiful/react-charts.git",
+    "directory": "vertical-bar-graph"
+  },
+  "keywords": [
+    "react",
+    "charts",
+    "graphs",
+    "data visualization",
+    "mobile",
+    "android",
+    "iOS",
+    "expo",
+    "react-graphs",
+    "bar-graphs",
+    "react-bar-graphs"
+  ],
+  "author": "Sean Watters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chartiful/react-charts/issues"
+  },
+  "homepage": "https://github.com/chartiful/react-charts/tree/master/vertical-bar-graph",
+  "peerDependencies": {
+    "react": "> 16.7.0",
+    "@chartiful/react-chart-builder": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "react": "^16.13.1"
+  }
+}

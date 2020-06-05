@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "setup": "cd _development_app && npm i && cd ../AppExample && npm i && cd ../chart-builder && npm i && npm run build && cd ../horizontal-bar-graph && npm i && npm run build && cd ../line-graph && npm i && npm run build && cd ../pie-chart && npm i && cd ../vertical-bar-graph && npm i && npm run build",
+    "develop": "cd _development_app && npm run start",
+    "example": "cd AppExample && npm run start"
+  }
+}
