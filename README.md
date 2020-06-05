@@ -4,10 +4,6 @@ A chart library for React. Currently there is support for vertical bar graphs, h
 
 **[NPM packages](https://www.npmjs.com/org/chartiful)**
 
-<p align="center">
-  <img src="https://seanwatters.io/images/@chartiful-react-native-overview.png" width="600px" alt="bar graph image">
-</p>
-
 ## BaseChartConfig
 
 - `startAtZero` ?: boolean
