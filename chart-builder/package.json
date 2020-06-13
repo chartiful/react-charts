@@ -1,6 +1,6 @@
 {
   "name": "@chartiful/react-chart-builder",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Foundation to React Native charts.",
   "source": "src/index.tsx",
   "main": "lib/chart-builder/src/index.js",

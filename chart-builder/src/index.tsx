@@ -266,10 +266,10 @@ export default class ChartBuilder {
           x={x}
           y={y}
           transform={`rotate(${rotation})`}
-          text-anchor='middle'
-          font-family={fontFamily}
-          font-size={fontSize}
-          font-weight={fontWeight}
+          textAnchor='middle'
+          fontFamily={fontFamily}
+          fontSize={fontSize}
+          fontWeight={fontWeight}
           fill={color}
         >
           {label}
@@ -310,10 +310,10 @@ export default class ChartBuilder {
           x={x}
           y={y}
           transform={`rotate(${rotation})`}
-          text-anchor={'middle'}
-          font-family={fontFamily}
-          font-size={fontSize}
-          font-weight={fontWeight}
+          textAnchor={'middle'}
+          fontFamily={fontFamily}
+          fontSize={fontSize}
+          fontWeight={fontWeight}
           fill={color}
         >
           {label}
