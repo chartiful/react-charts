@@ -1,7 +1,7 @@
 {
   "name": "@chartiful/react-horizontal-bar-graph",
   "version": "0.1.4",
-  "description": "React Native horizontal bar graph.",
+  "description": "React horizontal bar graph.",
   "source": "src/index.tsx",
   "main": "lib/horizontal-bar-graph/src/index.js",
   "types": "lib/horizontal-bar-graph/src/index.d.ts",
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/chartiful/react-charts/issues"
   },
-  "homepage": "https://github.com/chartiful/react-charts#readme",
+  "homepage": "https://chartiful.io/react/horizontal-bar-graph",
   "peerDependencies": {
     "@chartiful/react-chart-builder": ">= 0.1.4",
     "react": "> 16.7.0"

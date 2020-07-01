@@ -1,7 +1,7 @@
 {
   "name": "@chartiful/react-chart-builder",
   "version": "0.1.5",
-  "description": "Foundation to React Native charts.",
+  "description": "Foundation to React charts.",
   "source": "src/index.tsx",
   "main": "lib/chart-builder/src/index.js",
   "types": "lib/chart-builder/src/index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chartiful/react-chart.git",
+    "url": "git+https://github.com/chartiful/react-charts.git",
     "directory": "chart-builder"
   },
   "keywords": [
@@ -19,20 +19,14 @@
     "charts",
     "graphs",
     "data visualization",
-    "mobile",
-    "android",
-    "iOS",
-    "expo",
-    "react-graphs",
-    "bar-graphs",
-    "react-bar-graphs"
+    "react-graphs"
   ],
   "author": "Sean Watters",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chartiful/react-charts/issues"
   },
-  "homepage": "https://github.com/chartiful/react-charts#readme",
+  "homepage": "https://chartiful.io/react/chart-builder",
   "peerDependencies": {
     "react": "> 16.7.0"
   },

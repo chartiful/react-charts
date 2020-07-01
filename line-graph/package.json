@@ -1,7 +1,7 @@
 {
   "name": "@chartiful/react-line-graph",
   "version": "0.1.3",
-  "description": "React Native line graph.",
+  "description": "React line graph.",
   "source": "src/index.tsx",
   "main": "lib/line-graph/src/index.js",
   "types": "lib/line-graph/src/index.d.ts",
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/chartiful/react-charts/issues"
   },
-  "homepage": "https://github.com/chartiful/react-charts/tree/master/line-graph",
+  "homepage": "https://chartiful.io/react/line-graph",
   "peerDependencies": {
     "@chartiful/react-chart-builder": ">= 0.1.4",
     "react": "> 16.7.0"
