@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import ChartBuilder from '@chartiful/react-chart-builder'
-import { VerticalBarGraphConfig } from '../../types'
+import type { VerticalBarGraphConfig } from '../../types'
 
 const BarChart = ({
   data,

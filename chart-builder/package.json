@@ -6,7 +6,7 @@
   "main": "lib/chart-builder/src/index.js",
   "types": "lib/chart-builder/src/index.d.ts",
   "scripts": {
-    "build": "tsc --skipLibCheck",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

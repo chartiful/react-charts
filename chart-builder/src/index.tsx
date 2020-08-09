@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { BaseChartConfig } from '../../types'
+import type { BaseChartConfig } from '../../types'
 
 interface Config extends BaseChartConfig {
   data: number[] 
