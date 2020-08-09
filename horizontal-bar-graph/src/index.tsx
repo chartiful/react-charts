@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import ChartBuilder from '@chartiful/react-chart-builder'
-import { VerticalBarGraphConfig, BaseChartConfig } from '../../types'
+import type { VerticalBarGraphConfig, BaseChartConfig } from '../../types'
 
 const HorizontalBarGraph = ({
   data,
@@ -12,12 +12,7 @@ const HorizontalBarGraph = ({
   barWidthPercentage = 0.7,
   barColor,
   style = {},
-  baseConfig = {
-    data: data.reverse(),
-    labels: labels ? labels.reverse() : undefined,
-    height: width,
-    width: height,
-  }
+  baseConfig = {}
 }: VerticalBarGraphConfig) => {
   const translateProps = () => {
     let baseConfigCopy: BaseChartConfig = JSON.parse(JSON.stringify(baseConfig))

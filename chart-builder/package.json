@@ -1,12 +1,12 @@
 {
   "name": "@chartiful/react-chart-builder",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Foundation to React charts.",
   "source": "src/index.tsx",
   "main": "lib/chart-builder/src/index.js",
   "types": "lib/chart-builder/src/index.d.ts",
   "scripts": {
-    "build": "tsc --skipLibCheck",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

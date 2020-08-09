@@ -1,12 +1,12 @@
 {
   "name": "@chartiful/react-vertical-bar-graph",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "React vertical bar graph.",
   "source": "src/index.tsx",
   "main": "lib/vertical-bar-graph/src/index.js",
   "types": "lib/vertical-bar-graph/src/index.d.ts",
   "scripts": {
-    "build": "tsc --skipLibCheck",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,7 +35,7 @@
   "homepage": "https://chartiful.io/react/vertical-bar-graph",
   "peerDependencies": {
     "react": "> 16.7.0",
-    "@chartiful/react-chart-builder": ">= 0.1.4"
+    "@chartiful/react-chart-builder": ">= 0.1.6"
   },
   "devDependencies": {
     "@types/react": "^16.9.35",

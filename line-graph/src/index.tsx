@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { LineGraphConfig } from '../../types'
+import type { LineGraphConfig } from '../../types'
 import ChartBuilder from '@chartiful/react-chart-builder'
 
 const LineChart = ({

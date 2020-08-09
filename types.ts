@@ -1,12 +1,6 @@
 export interface BaseChartConfig {
-  data: number[]
-  labels?: string[]
-
   startAtZero?: boolean
-
-  height: number
-  width: number
-
+  
   hasXAxisLabels?: boolean
   hasYAxisLabels?: boolean
 

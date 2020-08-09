@@ -22,9 +22,6 @@ const App = () => {
           hasXAxisLabels: true,
           hasYAxisLabels: true,
           hasXAxisBackgroundLines: false,
-          data: [0, 20, 10, 20, 30],
-          height: 425,
-          width: 500
         }}
         style={{
           marginBottom: 60
