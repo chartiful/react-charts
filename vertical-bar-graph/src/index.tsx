@@ -12,7 +12,7 @@ const BarChart = ({
   barWidthPercentage = 0.7,
   barColor,
   style = {},
-  baseConfig
+  baseConfig = {}
 }: VerticalBarGraphConfig) => {
   const chartBuilder = new ChartBuilder({
     data,
