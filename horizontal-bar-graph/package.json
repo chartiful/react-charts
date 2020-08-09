@@ -1,6 +1,6 @@
 {
   "name": "@chartiful/react-horizontal-bar-graph",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "React horizontal bar graph.",
   "source": "src/index.tsx",
   "main": "lib/horizontal-bar-graph/src/index.js",
@@ -34,7 +34,7 @@
   },
   "homepage": "https://chartiful.io/react/horizontal-bar-graph",
   "peerDependencies": {
-    "@chartiful/react-chart-builder": ">= 0.1.4",
+    "@chartiful/react-chart-builder": ">= 0.1.6",
     "react": "> 16.7.0"
   },
   "devDependencies": {
