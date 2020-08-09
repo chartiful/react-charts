@@ -2,6 +2,13 @@ import * as React from 'react'
 
 import { BaseChartConfig } from '../../types'
 
+interface Config extends BaseChartConfig {
+  data: number[] 
+  labels?: string[]
+  height: number 
+  width: number
+}
+
 export default class ChartBuilder {
   data: number[]
   labels: string[]
@@ -98,7 +105,7 @@ export default class ChartBuilder {
       strokeWidth: 1,
       color: '#000000'
     }
-  }: BaseChartConfig) {
+  }: Config) {
     this.X_AXIS_LABEL_WIDTH = 50
     this.Y_AXIS_LABEL_HEIGHT = 50
 
