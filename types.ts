@@ -76,14 +76,14 @@ export interface LineGraphConfig {
   data: number[]
   height: number
   width: number
-  hasLine: boolean
-  lineWidth: number
-  lineColor: string
-  isBezier: boolean
-  hasShadow: boolean
-  hasDots: boolean
-  dotColor: string
-  dotSize: number
+  hasLine?: boolean
+  lineWidth?: number
+  lineColor?: string
+  isBezier?: boolean
+  hasShadow?: boolean
+  hasDots?: boolean
+  dotColor?: string
+  dotSize?: number
   style?: any,
   baseConfig?: BaseChartConfig
 }
