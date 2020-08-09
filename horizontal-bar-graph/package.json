@@ -1,12 +1,12 @@
 {
   "name": "@chartiful/react-horizontal-bar-graph",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React horizontal bar graph.",
   "source": "src/index.tsx",
   "main": "lib/horizontal-bar-graph/src/index.js",
   "types": "lib/horizontal-bar-graph/src/index.d.ts",
   "scripts": {
-    "build": "tsc --skipLibCheck",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
